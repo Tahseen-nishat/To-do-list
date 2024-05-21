@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: auto;
+    padding: auto;
+    background-image: url("https://i.pinimg.com/originals/31/4e/7f/314e7f45f8d9bec0fa9de2b77ef0fa4d.jpg");
+}
+
+.container{
+    margin: 100px 400px;
+    padding: 50px 100px;
+    background-image: url("https://w0.peakpx.com/wallpaper/202/33/HD-wallpaper-soothing-background-light-pastel.jpg");
+    border-radius: 20px;
+}
+.head{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+}
+.search{
+    text-align: center;
+    padding: 20px;
+    
+}
+#tag,#search_input,#add-btn{
+    padding: 10px;
+    font-size: 17px;
+}
+
+#search_input{
+    width: 80%;
+    border-radius: 20px;
+    padding:15px 40px 15px 15px;
+}
+#add-btn{
+    border-radius: 20px;
+    position: absolute;
+    padding:15px;
+    margin-left: -45px;
+    background-color: rgb(210, 145, 172);
+}
+.todo-list{
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+    margin-left: 30px;
+    border-radius: 20px;
+}
+
+.todo-list ul{
+    display: flex;
+    justify-content:baseline;
+    text-align:left;
+    padding: 8px;
+    color: rgb(19, 12, 12);
+    background-color: #f6f6f6;
+    font-size: 25px;
+    margin-bottom: 4px;
+    border-radius: 4px;
+}
+
+.todo-list ul span.todo-item {
+    flex-grow: 1;
+}
+
+.todo-list ul button {
+    margin-left: 8px;
+    padding: 4px 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.todo-list ul button:hover {
+    background-color: #0056b3;
+}
+
+.todo-list ul button img {
+    width: 18px; 
+    height: 18px; 
+}
